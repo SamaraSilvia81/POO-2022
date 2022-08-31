@@ -1,0 +1,1 @@
+Este repositório é voltado para compor as atividades e projetos desenvolvidos na disciplina de Programação Imperativa - Java.
