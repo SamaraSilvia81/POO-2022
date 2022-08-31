@@ -1,1 +1,10 @@
-Este repositório é voltado para compor as atividades e projetos desenvolvidos na disciplina de Programação Imperativa - Java.
+# Programação Orientada a Objetos - Java 
+Este repositório é voltado para compor as atividades, provas e projetos no geral feitos na linguagem de programação java focado em POO no terceiro período do meu curso - SI -
+
+## Conteúdo 
+- Aulas da Disciplina
+  - Aula02 - Noções Básicas
+  - Aula03 - Noções Básicas.part2
+  - Aula04 - Visibilidade
+  - Aula 05 - Visbilidade.part2
+- Atividades da Disciplina
