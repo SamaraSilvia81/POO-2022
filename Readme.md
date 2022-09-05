@@ -6,5 +6,6 @@ Este repositório é voltado para compor as atividades, provas e projetos no ger
   - Aula02 - Noções Básicas
   - Aula03 - Noções Básicas.part2
   - Aula04 - Visibilidade
-  - Aula 05 - Visbilidade.part2
+  - Aula05 - Visbilidade.part2
+  - Aula06 - Associação de Classes
 - Atividades da Disciplina
