@@ -8,6 +8,7 @@ Este repositório é voltado para compor as atividades, provas e projetos no ger
   - Aula04 - Visibilidade
   - Aula05 - Visbilidade.part2
   - Aula06 - Associação de Classes
+  - Aula08 - Herança
 - Atividades da Disciplina
 - Desafios da Disciplina
   - Aula07 - Desafio de Associação de Classes
