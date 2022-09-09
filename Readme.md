@@ -10,5 +10,6 @@ Este repositório é voltado para compor as atividades, provas e projetos no ger
   - Aula06 - Associação de Classes
   - Aula08 - Herança
 - Atividades da Disciplina
+  - Exercícios de Herança
 - Desafios da Disciplina
   - Aula07 - Desafio de Associação de Classes
