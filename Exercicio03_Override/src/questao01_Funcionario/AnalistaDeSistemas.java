@@ -8,6 +8,7 @@ public class AnalistaDeSistemas extends Funcionario {
 
 	@Override
 	public void aumentaSalario() {
-		 System.out.println("Salário + 15%: " + (this.getSalario() * 15/100 + this.getSalario()));
+		System.out.print("Salário + 5%: ");
+		super.aumentaSalario();
 	}
 }

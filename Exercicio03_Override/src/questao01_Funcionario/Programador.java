@@ -8,7 +8,7 @@ public class Programador extends Funcionario {
 
 	@Override
 	public void aumentaSalario() {
-		System.out.println("Salário + 10%: " + (this.getSalario() * 10/100 + this.getSalario()));
-		}
+		System.out.println("Salário + 20%: " + (super.getSalario() * 20/100 + super.getSalario()));
+	}
 
 }

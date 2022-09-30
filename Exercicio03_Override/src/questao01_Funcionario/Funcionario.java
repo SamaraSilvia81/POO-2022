@@ -23,7 +23,7 @@ public abstract class Funcionario {
 		this.salario = salario;
 	}
 	
-	public abstract void aumentaSalario();
-
-
+	public void aumentaSalario() {
+		System.out.println((this.getSalario() * 5/100 + this.getSalario()));
+	}
 }
