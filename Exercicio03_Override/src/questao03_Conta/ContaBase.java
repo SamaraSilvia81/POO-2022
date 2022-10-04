@@ -3,7 +3,7 @@ package questao03_Conta;
 public class ContaBase implements Conta {
 		
 		public int numConta;
-		private double limit;
+		private double limite;
 		private String nomeDono;
 		private double saldo;
 		private double salarioMensal = 2500;
@@ -44,7 +44,7 @@ public class ContaBase implements Conta {
 		}
 		
 		public double getLimit() {
-			return limit;
+			return limite;
 		}
 		
 		public double getSalarioMensal() {
@@ -61,7 +61,7 @@ public class ContaBase implements Conta {
 		public ContaBase (int numConta, String nomeDono) {
 			
 			this.status = false;
-			this.limit = 300;
+			this.limite = 300;
 			this.numConta = numConta;
 			this.nomeDono = nomeDono;
 			this.saldo = salarioMensal;
@@ -89,7 +89,7 @@ public class ContaBase implements Conta {
 		public void sacar(double saque) {
 			
 			if(getLimit() > getSalarioMensal()) {
-				System.out.println("O saque n�o pode ser efetuado. Limite inferior!");
+				System.out.println("O saque não pode ser efetuado. Limite Superior!");
 			} else {
 				this.saldo -= saque; 
 			}

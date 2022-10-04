@@ -3,7 +3,7 @@ package questao03_Conta;
 public class ContaEspecial implements Conta  {
 		
 		public int numConta;
-		private double limit;
+		private double limite;
 		private String nomeDono;
 		private double saldo;
 		private double salarioMensal = 2500;
@@ -44,11 +44,11 @@ public class ContaEspecial implements Conta  {
 		}
 		
 		public double getLimit() {
-			return limit;
+			return limite;
 		}
 		
-		public void setLimit(double limit) {
-			this.limit = limit;
+		public void setLimit(double limite) {
+			this.limite = limite;
 		}
 
 		public double getSalarioMensal() {
@@ -65,7 +65,7 @@ public class ContaEspecial implements Conta  {
 			
 			this.status = false;
 			
-			this.limit = (int)(Math.random()*salarioMensal*3);
+			this.limite = (int)(Math.random()*salarioMensal*3);
 			
 			this.numConta = numConta;
 			this.nomeDono = nomeDono;
