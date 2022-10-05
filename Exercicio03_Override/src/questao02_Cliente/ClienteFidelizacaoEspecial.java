@@ -1,33 +1,14 @@
 package questao02_Cliente;
 
-public class ClienteFidelizacaoEspecial extends Cliente {
+public class ClienteFidelizacaoEspecial extends ClienteFidelizacao {
 	
-	private double bonus;
-	private String validade;
-	
-	public ClienteFidelizacaoEspecial(String nome, String endereco, double valor, double bonus, String validade) {
-		super(nome, endereco, valor);
-		this.bonus = bonus;
-		this.validade = validade;
-	}
-
-	public double getBonus() {
-		return bonus;
-	}
-
-	public void setBonus(double bonus) {
-		this.bonus = bonus;
-	}
-
-	public String getValidade() {
-		return validade;
-	}
-
-	public void setValidade(String validade) {
-		this.validade = validade;
+	public ClienteFidelizacaoEspecial(String nome, String endereco, InfoCliente info) {
+		super(nome, endereco, info);
 	}
 	
-	public void adicionaBonus() {
-		
+	@Override
+	public double adicionaBonus(double compra) {
+		return bonus = (compra * 0.10);
 	}
+
 }

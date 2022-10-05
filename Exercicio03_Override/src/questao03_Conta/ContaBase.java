@@ -47,6 +47,10 @@ public class ContaBase implements Conta {
 			return limite;
 		}
 		
+		public void setLimite(double limite) {
+			this.limite = limite;
+		}
+
 		public double getSalarioMensal() {
 			return salarioMensal;
 		}

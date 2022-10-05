@@ -1,23 +1,34 @@
 package questao02_Cliente;
 
+import java.util.Scanner;
+
 public class TesteCliente {
-	
+
 	public static void main(String[] args) {
 		
-		ClienteFidelizacao cf = new ClienteFidelizacao("Samara","Rua Porto Nacional",1000,2,"10/2023");
-		ClienteFidelizacaoEspecial cfe = new ClienteFidelizacaoEspecial("Eudes","Dauphin",2000,3,"12/2024");
+		Scanner input = new Scanner(System.in);
 		
-		System.out.println("DADOS DOS CLIENTES DA EMPRESA X");
+		InfoClientePF icpf = new InfoClientePF("111.222.333-44");
+		InfoClientePJ icpj = new InfoClientePJ("999.888.777-66");
+		
+		ClienteFidelizacao cf = new ClienteFidelizacao("Samara", "Rua Porto Nacional", icpf);
+		ClienteFidelizacaoEspecial cfe = new ClienteFidelizacaoEspecial("Marvel", "EUA", icpj);
+		
+		cf.setCompra(200);
+		cfe.setCompra(400);
+		
+		System.out.println("Cliente Fidelização");
 		System.out.println("Nome: " + cf.getNome());
-		System.out.println("Tipo de Cliente: Fidelização");
 		System.out.println("Endereço: " + cf.getEndereco());
-		System.out.println("Bônus: " + cf.getBonus());
-		System.out.println("Valor da Compra: " + cf.getValor());
-		System.out.println("Validade do Cartão: " + cf.getValidade());
-		System.out.print("AdionaBonus: ");
-		cf.adicionaBonus();
+		System.out.println("Cpf: " + icpf.getCpf());
+		System.out.println("Valor do bônus: " + cf.adicionaBonus(cf.getCompra()));
 		
-		
+		System.out.println("\nCliente Fidelização Especial");
+		System.out.println("Nome: " + cfe.getNome());
+		System.out.println("Endereço: " + cfe.getEndereco());
+		System.out.println("Cnpj: " + icpj.getCnpj());
+		System.out.println("Valor do bônus: " + cfe.adicionaBonus(cfe.getCompra()));
 		
 	}
+
 }
